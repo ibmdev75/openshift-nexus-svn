@@ -1,0 +1,51 @@
+﻿<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ibm</groupId>
+  <artifactId>gwsm</artifactId>
+  <packaging>jar</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>gwsm</name>
+  <url>http://maven.apache.org</url>
+
+    <scm>
+        <url>https://github.com/ibmdev75/openshift-nexus-svn.git</url>
+        <connection>scm:git:https://github.com/ibmdev75/openshift-nexus-svn.git</connection>
+        <developerConnection>scm:git:https://github.com/ibmdev75/openshift-nexus-svn.git</developerConnection>
+    	
+  </scm>
+
+    <properties>
+        <junit.version>4.11</junit.version>
+    </properties>
+
+    <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>${junit.version}</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+<!--
+   <distributionManagement>
+        <repository>
+            <id>nexusReleases</id>
+            <name>Releases</name>
+            <url>http://localhost:8081/nexus/content/repositories/releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>nexusSnapshots</id>
+            <name>Snapshots</name>
+            <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+-->
+
+
+    </project>
+<!--
+
+Url du repository snapshot Nexus : http://localhost:8081/nexus/content/repositories/snapshots
+Informations supplémentaires : http://mojo.codehaus.org/ship-maven-plugin/examples/deploy-on-release.html
+-->
