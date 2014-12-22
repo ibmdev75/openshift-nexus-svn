@@ -8,6 +8,7 @@ Dans l'application openshift-nexus-svn
 2) Introduction à Spring MyIbatis : 22/12/2014
 3) Lecture et application des nouveautés de JCMS 9 : 23/12/2014
 4) Introduction à l'intégration continue : Jenkins, tests unitaires,..... 24/12/2014
+5) Formation Git
 
 Dans l'application spring-jboss-picketlink
 
