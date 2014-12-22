@@ -11,8 +11,8 @@
         <url>https://github.com/ibmdev75/openshift-nexus-svn.git</url>
         <connection>scm:git:https://github.com/ibmdev75/openshift-nexus-svn.git</connection>
         <developerConnection>scm:git:https://github.com/ibmdev75/openshift-nexus-svn.git</developerConnection>
-    	
     <tag>HEAD</tag>
+
   </scm>
 
     <properties>
