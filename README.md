@@ -6,6 +6,16 @@ Dans l'application openshift-nexus-svn
 
 1) Mise en place de maven release
 2) Introduction à Spring MyIbatis : 22/12/2014
+
+
+Paramètres de connexion à une base de données MYSQL hébergé sur Heroku : 
+
+Database: herokungjavamq
+User: adminhejXHcU
+Password: Algd1-u9Aq9-
+
+
+
 3) Lecture et application des nouveautés de JCMS 9 : 23/12/2014
 4) Introduction à l'intégration continue : Jenkins, tests unitaires,..... 24/12/2014
 5) Formation Git
